@@ -9,7 +9,7 @@ from pathlib import Path
 from imgconvert import __version__
 from imgconvert.batch import BatchOptions, run_batch
 from imgconvert.exceptions import ImgConvertError
-from imgconvert.logging import configure_logging
+from imgconvert.log_config import configure_logging
 from imgconvert.resizing import ResizeOptions
 from imgconvert.utils import BASE_FORMATS, normalize_format
 

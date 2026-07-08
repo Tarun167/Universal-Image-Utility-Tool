@@ -106,7 +106,7 @@ Important options:
 - `imgconvert.optimization`: Quality binary search and byte-size targets.
 - `imgconvert.metadata`: EXIF and ICC extraction and save parameter handling.
 - `imgconvert.batch`: Input discovery and multithreaded batch conversion.
-- `imgconvert.logging`: Human and JSON logging setup.
+- `imgconvert.log_config`: Human and JSON logging setup.
 - `imgconvert.utils`: Format, path, and size helpers.
 
 ## Testing
