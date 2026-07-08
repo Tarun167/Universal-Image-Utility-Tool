@@ -36,6 +36,12 @@ ImageMagick is optional. If installed, `imgconvert` will use `magick` or `conver
 
 ## Usage
 
+!! Mostly Need Command For Gov. Applications (for limiting the file size under 200KB on PNG)
+
+```bash
+python -m imgconvert <input_file> --format png --output <output_file> --width 350 --max-size 200KB --strip-metadata --overwrite
+```
+
 Convert one file:
 
 ```bash
